@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
 import SyntaxHighlighter, {
     registerLanguage
@@ -17,16 +17,31 @@ import axios from 'axios';
  * Takes a filename containing the code to show and an optional language setting.
  * If no language setting is given, the component defaults to JSX.
  *
- * @prop required {string} file - The path to the file to load.
+ * It also allows a free text codeString to be given. If both are set, file will
+ * override codeString
+ *
+ * This code block will autoreset any changes to the contenteditable <code>
+ * tag and, if the user made any changes before the reset, the onRest
+ * handler will be called.
+ *
+ * @prop {string} file - The path to the file to load.
+ * @prop {string} codeString - A string value containing code to display.
  * @prop {string} language - Select a highlighter for jsx | javascript | html | json.
+ * @prop {function} onReset - A callback function to execute when changes to the
+ *          contenteditable section is reverted.
  *  */
 class CodeBlock extends Component {
     static propTypes = {
-        file: PropTypes.string.isRequired,
-        language: PropTypes.oneOf(['javascript', 'jsx', 'json', 'html'])
+        file: PropTypes.string,
+        codeString: PropTypes.string,
+        language: PropTypes.oneOf(['javascript', 'jsx', 'json', 'html']),
+        onReset: PropTypes.func
     };
 
     customTheme = atomDark;
+
+    codeBlockFrame = createRef();
+    loadedInnerHTMLString = '';
 
     state = {
         codeString: ''
@@ -56,18 +71,21 @@ class CodeBlock extends Component {
             }
         };
 
-        this.fetchFile();
+        this.setText();
     }
 
     /**
      * @function
-     * Refetches the file when the filename changes.
+     * Resets the code text when the filename or codeString changes.
      *
      * @param {object} prevProps
      */
     componentDidUpdate(prevProps) {
-        if (prevProps.file !== this.props.file) {
-            this.fetchFile();
+        if (
+            prevProps.file !== this.props.file ||
+            prevProps.codeString !== this.props.codeString
+        ) {
+            this.setText();
         }
     }
 
@@ -77,9 +95,27 @@ class CodeBlock extends Component {
      * being set as contenteditable, the user can accidentally
      * edit the code. This resets the code on blur to ensure a more
      * stable interface;
+     *
+     * It also checks whether the user had changed the tag content.
+     * If so the onReset handler is called.
+     *
+     * The implementation here is to allow for IE support.
      */
     onBlurHandler = () => {
+        const { onReset } = this.props;
+
         const oldCodeString = this.state.codeString;
+
+        if (
+            this.loadedInnerHTMLString !==
+                this.codeBlockFrame.current
+                    .querySelector('code')
+                    .innerHTML.toString() &&
+            onReset
+        ) {
+            onReset();
+        }
+
         this.setState({ codeString: '' }, () => {
             this.setState({ codeString: oldCodeString });
         });
@@ -104,12 +140,31 @@ class CodeBlock extends Component {
     /**
      * @function
      *
-     * GETs the file from the server and sets the content to the
-     * component state.
+     * If a file is given it GETs the file from the server and
+     * sets the content to the component state.
+     *
+     * Alternatively if a codeString is given, it is set to the
+     * component state. This is an intentional duplication of
+     * the prop into the state so that the mechanism can be
+     * re-used without code duplication.
      */
-    fetchFile = () => {
-        axios.get(this.props.file).then(({ data }) => {
-            this.setState({ codeString: data });
+    setText = () => {
+        const { file, codeString } = this.props;
+
+        if (file) {
+            axios.get(file).then(({ data }) => {
+                this.setCodeString(data);
+            });
+        } else if (codeString) {
+            this.setCodeString(codeString);
+        }
+    };
+
+    setCodeString = codeString => {
+        this.setState({ codeString }, () => {
+            this.loadedInnerHTMLString = this.codeBlockFrame.current
+                .querySelector('code')
+                .innerHTML.toString();
         });
     };
 
@@ -132,7 +187,7 @@ class CodeBlock extends Component {
         const { codeString } = this.state;
 
         return codeString ? (
-            <div id="codeblock">
+            <div id="codeblock" ref={this.codeBlockFrame}>
                 <SyntaxHighlighter
                     language={this.props.language || 'jsx'}
                     style={this.customTheme}

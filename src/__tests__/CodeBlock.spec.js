@@ -295,30 +295,6 @@ describe('CodeBlock', () => {
         expect(container).toMatchSnapshot();
     });
 
-    it('should update the code block when the input file changes', async () => {
-        axios.get.mockImplementationOnce(() =>
-            Promise.resolve({
-                data: '<div>some code</div>'
-            })
-        );
-
-        const { rerender } = await render(<CodeBlock file="/test/file.js" />);
-
-        expect(axios.get).toHaveBeenCalledWith('/test/file.js');
-
-        axios.get.mockClear();
-
-        axios.get.mockImplementationOnce(() =>
-            Promise.resolve({
-                data: '<div>some code</div>'
-            })
-        );
-
-        rerender(<CodeBlock file="/test/someotherfile.html" />);
-
-        expect(axios.get).toHaveBeenCalledWith('/test/someotherfile.html');
-    });
-
     it('should replace the old text content on blur', async () => {
         axios.get.mockImplementationOnce(() =>
             Promise.resolve({
@@ -381,5 +357,98 @@ describe('CodeBlock', () => {
 
         window.getSelection = oldGetSelection;
         document.createRange = oldCreateRange;
+    });
+
+    it('should render without error for both no file and no codeString given', async () => {
+        const { container } = await render(<CodeBlock />);
+
+        expect(container.querySelector('code')).toBeNull();
+    });
+});
+
+describe('CodeBlock with file property', () => {
+    afterEach(cleanup);
+
+    it('should update the code block when the input file changes', async () => {
+        axios.get.mockImplementationOnce(() =>
+            Promise.resolve({
+                data: '<div>some code</div>'
+            })
+        );
+
+        const { rerender } = await render(<CodeBlock file="/test/file.js" />);
+
+        expect(axios.get).toHaveBeenCalledWith('/test/file.js');
+
+        axios.get.mockClear();
+
+        axios.get.mockImplementationOnce(() =>
+            Promise.resolve({
+                data: '<div>some code</div>'
+            })
+        );
+
+        rerender(<CodeBlock file="/test/someotherfile.html" />);
+
+        expect(axios.get).toHaveBeenCalledWith('/test/someotherfile.html');
+    });
+
+    it('should call the onReset handler only when the contents is changed', async () => {
+        axios.get.mockImplementationOnce(() =>
+            Promise.resolve({
+                data: '<div>some code</div>'
+            })
+        );
+
+        const mockResetHandler = jest.fn();
+
+        const { container } = await render(
+            <CodeBlock file="/test/file.js" onReset={mockResetHandler} />
+        );
+
+        let codeBlock = container.querySelector('code');
+        fireEvent.blur(codeBlock);
+        expect(mockResetHandler).not.toHaveBeenCalled();
+
+        codeBlock = container.querySelector('code');
+        codeBlock.innerHTML = '';
+        fireEvent.blur(codeBlock);
+        expect(mockResetHandler).toHaveBeenCalled();
+    });
+});
+
+describe('CodeBlock with codeString property', () => {
+    afterEach(cleanup);
+
+    it('should update the code block when the input file changes', () => {
+        const { rerender, queryByText } = render(
+            <CodeBlock codeString={'<span>Demo</span>'} />
+        );
+
+        expect(queryByText('Demo')).not.toBeNull();
+
+        rerender(<CodeBlock codeString={'<span>Changed</span>'} />);
+        expect(queryByText('Demo')).toBeNull();
+        expect(queryByText('Changed')).not.toBeNull();
+    });
+
+    it('should call the onReset handler only when the contents is changed', () => {
+        const mockResetHandler = jest.fn();
+
+        const { container } = render(
+            <CodeBlock
+                codeString={'<span>Demo</span>'}
+                onReset={mockResetHandler}
+            />
+        );
+
+        let codeBlock = container.querySelector('code');
+        fireEvent.blur(codeBlock);
+        expect(mockResetHandler).not.toHaveBeenCalled();
+
+        codeBlock = container.querySelector('code');
+        codeBlock.innerHTML = '';
+        fireEvent.blur(codeBlock);
+        expect(mockResetHandler).toHaveBeenCalled();
     });
 });

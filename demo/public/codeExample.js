@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
 import SyntaxHighlighter, {
     registerLanguage
@@ -7,11 +7,20 @@ import javascript from 'react-syntax-highlighter/languages/prism/javascript';
 import jsx from 'react-syntax-highlighter/languages/prism/jsx';
 import json from 'react-syntax-highlighter/languages/prism/json';
 import { atomDark } from 'react-syntax-highlighter/styles/prism';
+import axios from 'axios';
 
 class CodeBlock extends Component {
     static propTypes = {
-        file: PropTypes.string.isRequired
+        file: PropTypes.string,
+        codeString: PropTypes.string,
+        language: PropTypes.oneOf(['javascript', 'jsx', 'json', 'html']),
+        onReset: PropTypes.func
     };
+
+    customTheme = atomDark;
+
+    codeBlockFrame = createRef();
+    loadedInnerHTMLString = '';
 
     state = {
         codeString: ''
@@ -21,40 +30,98 @@ class CodeBlock extends Component {
         registerLanguage('jsx', jsx);
         registerLanguage('javascript', javascript);
         registerLanguage('json', json);
-        this.fetchFile();
+
+        this.customTheme = {
+            ...atomDark,
+            comment: {
+                color: '#FFFFFF'
+            },
+            number: {
+                color: '#FF82FC'
+            }
+        };
+
+        this.setText();
     }
 
     componentDidUpdate(prevProps) {
-        if (prevProps.file !== this.props.file) {
-            this.fetchFile();
+        if (
+            prevProps.file !== this.props.file ||
+            prevProps.codeString !== this.props.codeString
+        ) {
+            this.setText();
         }
     }
 
-    fetchFile = () => {
-        const codeFile = new XMLHttpRequest();
-        codeFile.open('GET', this.props.file, false);
-        codeFile.onreadystatechange = () => {
-            if (codeFile.readyState === 4) {
-                if (codeFile.status === 200 || codeFile.status === 0) {
-                    this.setState({ codeString: codeFile.responseText });
-                }
-            }
-        };
-        codeFile.send(null);
+    onBlurHandler = () => {
+        const { onReset } = this.props;
+
+        const oldCodeString = this.state.codeString;
+
+        if (
+            this.loadedInnerHTMLString !==
+                this.codeBlockFrame.current
+                    .querySelector('code')
+                    .innerHTML.toString() &&
+            onReset
+        ) {
+            onReset();
+        }
+
+        this.setState({ codeString: '' }, () => {
+            this.setState({ codeString: oldCodeString });
+        });
+    };
+
+    onFocusHandler = e => {
+        const range = document.createRange();
+        range.selectNodeContents(e.target);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+    };
+
+    setText = () => {
+        const { file, codeString } = this.props;
+
+        if (file) {
+            axios.get(file).then(({ data }) => {
+                this.setCodeString(data);
+            });
+        } else if (codeString) {
+            this.setCodeString(codeString);
+        }
+    };
+
+    setCodeString = codeString => {
+        this.setState({ codeString }, () => {
+            this.loadedInnerHTMLString = this.codeBlockFrame.current
+                .querySelector('code')
+                .innerHTML.toString();
+        });
     };
 
     render() {
-        //And here is a comment
-        const test = true;
         const { codeString } = this.state;
-        const customTheme = Object.assign({}, atomDark, {
-            comment: { color: '#FFFFFF' }
-        });
-        console.log(customTheme);
+        //with some comments
+        const iAmBoolean = true;
         return codeString ? (
-            <SyntaxHighlighter language="javascript" style={customTheme}>
-                {codeString}
-            </SyntaxHighlighter>
+            <div id="codeblock" ref={this.codeBlockFrame}>
+                <SyntaxHighlighter
+                    language={this.props.language || 'jsx'}
+                    style={this.customTheme}
+                    codeTagProps={{
+                        contentEditable: 'true',
+                        suppressContentEditableWarning: 'true',
+                        tabIndex: 0,
+                        spellCheck: 'false',
+                        onBlur: this.onBlurHandler,
+                        onFocus: this.onFocusHandler
+                    }}
+                >
+                    {codeString}
+                </SyntaxHighlighter>
+            </div>
         ) : null;
     }
 }
