@@ -1,0 +1,7771 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeBlock should render a code block for JSX 1`] = `
+<div>
+  <div
+    id="codeblock"
+  >
+    <pre
+      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         React
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         Component 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         PropTypes 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'prop-types'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         SyntaxHighlighter
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+    registerLanguage
+
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/prism-light'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         javascript 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/javascript'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         jsx 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/jsx'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         json 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/json'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         atomDark 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/styles/prism'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          class
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          CodeBlock
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          extends
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          Component
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          static
+        </span>
+         propTypes 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         PropTypes
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        string
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        isRequired
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    state 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          ''
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          componentDidMount
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'jsx'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         jsx
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'javascript'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         javascript
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'json'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         json
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          componentDidUpdate
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        prevProps
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        prevProps
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          !==
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        props
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+    
+        <span
+          class="token,function-variable"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         codeFile 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          new
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          XMLHttpRequest
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          open
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'GET'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        props
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(153, 204, 153);"
+        >
+          false
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token,function-variable"
+          style="color: rgb(218, 208, 133);"
+        >
+          onreadystatechange
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        readyState 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        status 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          200
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ||
+        </span>
+         codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        status 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          setState
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        responseText 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          send
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          null
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          render
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(255, 255, 255);"
+        >
+          //And here is a comment
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         test 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(153, 204, 153);"
+        >
+          true
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         codeString 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        state
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         customTheme 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         Object
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          assign
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         atomDark
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            comment
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          '#FFFFFF'
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        console
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          log
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        customTheme
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          return
+        </span>
+         codeString 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ?
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            SyntaxHighlighter
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            language
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            javascript
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            style
+          </span>
+          <span
+            class="token,script,language-javascript"
+          >
+            <span
+              class="token,script-punctuation"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              {
+            </span>
+            customTheme
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              }
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token,plain-text"
+        >
+          
+                
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token,plain-text"
+        >
+          
+            
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            SyntaxHighlighter
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          null
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          export
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          default
+        </span>
+         CodeBlock
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for html 1`] = `
+<div>
+  <div
+    id="codeblock"
+  >
+    <pre
+      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            div
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            -1
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            group
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token,style-attr,language-css"
+          >
+            <span
+              class="token"
+              style="color: rgb(168, 255, 96);"
+            >
+               
+              <span
+                class="token"
+                style="color: rgb(168, 255, 96);"
+              >
+                style
+              </span>
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              ="
+            </span>
+            <span
+              class="token"
+              style="color: rgb(249, 238, 152);"
+            >
+              <span
+                class="token"
+                style="color: rgb(150, 203, 254);"
+              >
+                outline
+              </span>
+              <span
+                class="token"
+                style="color: rgb(197, 200, 198);"
+              >
+                :
+              </span>
+               none
+              <span
+                class="token"
+                style="color: rgb(197, 200, 198);"
+              >
+                ;
+              </span>
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            ul
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tablist
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            li
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            presentation
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            div
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            ec833728-4251-44f2-9742-7f2f5c3ac93c
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tab
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            0
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+                 
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-controls
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            407e51c0-47f1-4c2c-8475-decda409006e
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-selected
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            true
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 1
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            div
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            li
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            li
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            presentation
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            div
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            78af9472-22ac-4bc8-bdd0-6a1f781a07f3
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tab
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            -1
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+                 
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-controls
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            d73309f4-60a8-4124-b42e-3a8b9b6d7ee2
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 2
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            div
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            li
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            li
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            presentation
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            div
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            907133b7-3a8f-48de-9d3d-465692a0b633
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tab
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            -1
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+                 
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-controls
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            b5979aec-405a-434a-a759-62bb4eeb3a05
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 3
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            div
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            li
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            li
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            presentation
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            div
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            565cb652-2579-4e14-b2cc-898d5d631f79
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tab
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            -1
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+                 
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-controls
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            79a8979c-2c98-48a1-b30e-97ea507eaeda
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 4
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            span
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            div
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            li
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            ul
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            section
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            407e51c0-47f1-4c2c-8475-decda409006e
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tabpanel
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            0
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+             
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-describedby
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            ec833728-4251-44f2-9742-7f2f5c3ac93c
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 1
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        You are on the first panel
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            section
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            section
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            d73309f4-60a8-4124-b42e-3a8b9b6d7ee2
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tabpanel
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            0
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+             
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-describedby
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            78af9472-22ac-4bc8-bdd0-6a1f781a07f3
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            hidden
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 2
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        You are on the second panel
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            section
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            section
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            b5979aec-405a-434a-a759-62bb4eeb3a05
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tabpanel
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            0
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+             
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-describedby
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            907133b7-3a8f-48de-9d3d-465692a0b633
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            hidden
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 3
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        You are on the third panel
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            section
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            section
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            id
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            79a8979c-2c98-48a1-b30e-97ea507eaeda
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            role
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            tabpanel
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            tabindex
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            0
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          
+             
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            aria-describedby
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            565cb652-2579-4e14-b2cc-898d5d631f79
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            hidden
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Panel 4
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            h2
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        You are on the fourth panel
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            p
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            section
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            button
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        Change
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            button
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            div
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for javascript 1`] = `
+<div>
+  <div
+    id="codeblock"
+  >
+    <pre
+      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        <span
+          class="token,function-variable"
+          style="color: rgb(218, 208, 133);"
+        >
+          onKeyUpHandler
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         e 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         activeTabId 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        state
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         currentSelectedIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          reduce
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        prev
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         cur
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         index
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        cur
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabId 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         activeTabId 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ?
+        </span>
+         index 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         prev
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          let
+        </span>
+         newIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          switch
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          getKey
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        e
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          case
+        </span>
+         keyNames
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        ArrowLeft
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+        
+                newIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+        
+                    currentSelectedIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          &gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        
+                        
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ?
+        </span>
+         currentSelectedIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          -
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        
+                        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        length 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          -
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          break
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          case
+        </span>
+         keyNames
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        ArrowRight
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+        
+                newIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+        
+                    currentSelectedIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        length 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          -
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        
+                        
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ?
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        
+                        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         currentSelectedIndex 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          +
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          break
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          case
+        </span>
+         keyNames
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        ArrowDown
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        panelRefs
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        activeTabId 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ||
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabId
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          focus
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          return
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          default
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          return
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          setState
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                activeTabId
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        newIndex
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabId
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabRefs
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabsById
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        newIndex
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        tabId
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          focus
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for json 1`] = `
+<div>
+  <div
+    id="codeblock"
+  >
+    <pre
+      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+         'code
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        class*=
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          "language-"
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#c5c8c6'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                textShadow
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        px rgba(
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0.3
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                fontFamily
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+        
+                    
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                direction
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'ltr'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                textAlign
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'left'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                whiteSpace
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'pre'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                wordSpacing
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'normal'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                wordBreak
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'normal'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                lineHeight
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1.5
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                MozTabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                OTabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                tabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                WebkitHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                MozHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                msHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                hyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            'pre
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        class*=
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          "language-"
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#c5c8c6'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                textShadow
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        px rgba(
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0.3
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                fontFamily
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+        
+                    
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                direction
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'ltr'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                textAlign
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'left'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                whiteSpace
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'pre'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                wordSpacing
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'normal'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                wordBreak
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'normal'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                lineHeight
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1.5
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                MozTabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                OTabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                tabSize
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                WebkitHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                MozHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                msHyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                hyphens
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'none'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                padding
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        em'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                margin
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          .5
+        </span>
+        em 
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                overflow
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'auto'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                borderRadius
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0.3
+        </span>
+        em'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                background
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        d1f21'
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            '
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+        not(pre
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         &gt; code
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          [
+        </span>
+        class*=
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          "language-"
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ]
+        </span>
+        '
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                background
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          1
+        </span>
+        d1f21'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                padding
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          .1
+        </span>
+        em'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+                borderRadius
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          .3
+        </span>
+        em'
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            comment
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#FFFFFF' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            prolog
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          7
+        </span>
+        C7C7C' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            doctype
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          7
+        </span>
+        C7C7C' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            cdata
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          7
+        </span>
+        C7C7C' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            punctuation
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#c5c8c6' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            '.namespace'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         Opacity
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          .7
+        </span>
+        ' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            property
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          96
+        </span>
+        CBFE' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            keyword
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          96
+        </span>
+        CBFE' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            tag
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          96
+        </span>
+        CBFE' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            'class-name'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#FFFFB6'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         textDecoration
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'underline' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            boolean
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          99
+        </span>
+        CC99' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            constant
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          99
+        </span>
+        CC99' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            symbol
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#f92672' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            deleted
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#f92672' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            number
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#FF82FC' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            selector
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            'attr-name'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            string
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            char
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            builtin
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            inserted
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#A8FF60' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            variable
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#C6C5FE' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            operator
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#EDEDED' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            entity
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#FFFFB6'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         cursor
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'help' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            url
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          96
+        </span>
+        CBFE' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            '.language-css .token.string'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          87
+        </span>
+        C38A' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            '.style .token.string'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          87
+        </span>
+        C38A' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            atrule
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#F9EE98' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            'attr-value'
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#F9EE98' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            function
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#DAD085' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            regex
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#E9C062' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            important
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         '#fd971f'
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         fontWeight
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'bold' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            bold
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         fontWeight
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'bold' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+        
+            italic
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         fontStyle
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          :
+        </span>
+         'italic' 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+      </code>
+    </pre>
+  </div>
+</div>
+`;
