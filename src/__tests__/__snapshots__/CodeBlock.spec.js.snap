@@ -2,9 +2,7 @@
 
 exports[`CodeBlock should render a code block for JSX 1`] = `
 <div>
-  <div
-    id="codeblock"
-  >
+  <div>
     <pre
       style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
     >
@@ -1732,9 +1730,7 @@ exports[`CodeBlock should render a code block for JSX 1`] = `
 
 exports[`CodeBlock should render a code block for html 1`] = `
 <div>
-  <div
-    id="codeblock"
-  >
+  <div>
     <pre
       style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
     >
@@ -4444,9 +4440,7 @@ exports[`CodeBlock should render a code block for html 1`] = `
 
 exports[`CodeBlock should render a code block for javascript 1`] = `
 <div>
-  <div
-    id="codeblock"
-  >
+  <div>
     <pre
       style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
     >
@@ -5446,9 +5440,7 @@ exports[`CodeBlock should render a code block for javascript 1`] = `
 
 exports[`CodeBlock should render a code block for json 1`] = `
 <div>
-  <div
-    id="codeblock"
-  >
+  <div>
     <pre
       style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
     >

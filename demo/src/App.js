@@ -31,21 +31,21 @@ class App extends Component {
                 <h1>Code block demo application</h1>
                 <section>
                     <h2>Code block with free text</h2>
-                    <CodeBlock
-                        codeString={codeText}
-                        onReset={() => {
-                            console.log('reset');
-                        }}
-                    />
+<CodeBlock
+    codeString={codeText}
+    onReset={() => {
+        console.log('reset');
+    }}
+/>
                 </section>
                 <section>
                     <h2>Code block reading from a file</h2>
-                    <CodeBlock
-                        file="codeExample.js"
-                        onReset={() => {
-                            console.log('reset 2');
-                        }}
-                    />
+<CodeBlock
+    file="codeExample.js"
+    onReset={() => {
+        console.log('reset 2');
+    }}
+/>
                 </section>
                 <CodeBlock />
             </StrictMode>
