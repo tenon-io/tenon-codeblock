@@ -187,7 +187,7 @@ class CodeBlock extends Component {
         const { codeString } = this.state;
 
         return codeString ? (
-            <div id="codeblock" ref={this.codeBlockFrame}>
+            <div ref={this.codeBlockFrame}>
                 <SyntaxHighlighter
                     language={this.props.language || 'jsx'}
                     style={this.customTheme}

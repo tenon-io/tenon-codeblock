@@ -1,6 +1,6 @@
 {
     "name": "@tenon-io/tenon-codeblock",
-    "version": "1.0.0-alpha.2",
+    "version": "1.0.0-alpha.3",
     "description": "Tenon ui code display block",
     "contributors": [
         "Karl Groves <karl@tenon.io>",
