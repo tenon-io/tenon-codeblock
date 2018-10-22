@@ -185,9 +185,13 @@ class CodeBlock extends Component {
      */
     render() {
         const { codeString } = this.state;
+        const { className } = this.props;
 
         return codeString ? (
-            <div ref={this.codeBlockFrame}>
+            <div
+                className={className ? className : null}
+                ref={this.codeBlockFrame}
+            >
                 <SyntaxHighlighter
                     language={this.props.language || 'jsx'}
                     style={this.customTheme}

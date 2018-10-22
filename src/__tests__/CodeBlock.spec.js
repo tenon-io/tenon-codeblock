@@ -364,6 +364,23 @@ describe('CodeBlock', () => {
 
         expect(container.querySelector('code')).toBeNull();
     });
+
+    it('should pass a class through to the container', async () => {
+        axios.get.mockImplementationOnce(() =>
+            Promise.resolve({
+                data: '<div>some code</div>'
+            })
+        );
+
+        const { container } = await render(
+            <CodeBlock className="test-class" file="/test/file.js" />
+        );
+
+        expect(container.querySelector('div')).toHaveAttribute(
+            'class',
+            'test-class'
+        );
+    });
 });
 
 describe('CodeBlock with file property', () => {
