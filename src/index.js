@@ -1,12 +1,14 @@
 import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
-import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { PrismAsyncLight as SyntaxHighlighterJsx } from 'react-syntax-highlighter';
-import javascript from 'react-syntax-highlighter/dist/languages/hljs/javascript';
-import jsx from 'react-syntax-highlighter/dist/languages/prism/jsx';
-import json from 'react-syntax-highlighter/dist/languages/hljs/json';
-import { hybrid } from 'react-syntax-highlighter/dist/styles/hljs';
-import { atomDark } from 'react-syntax-highlighter/dist/styles/prism';
+import SyntaxHighlighter, {registerLanguage}  from 'react-syntax-highlighter/light';
+import SyntaxHighlighterJsx, {registerLanguage as registerLanguageJsx} from 'react-syntax-highlighter/prism-light';
+import javascript from 'react-syntax-highlighter/languages/hljs/javascript';
+import json from 'react-syntax-highlighter/languages/hljs/json';
+import css from 'react-syntax-highlighter/languages/hljs/css';
+import xml from 'react-syntax-highlighter/languages/hljs/xml';
+import jsx from 'react-syntax-highlighter/languages/prism/jsx';
+import { hybrid } from 'react-syntax-highlighter/styles/hljs';
+import { atomDark } from 'react-syntax-highlighter/styles/prism';
 import axios from 'axios';
 
 /**
@@ -59,9 +61,11 @@ class CodeBlock extends Component {
      * Finally fetches the file from the server.
      */
     componentDidMount() {
-        SyntaxHighlighterJsx.registerLanguage('jsx', jsx);
-        SyntaxHighlighter.registerLanguage('javascript', javascript);
-        SyntaxHighlighter.registerLanguage('json', json);
+        registerLanguageJsx('jsx', jsx);
+        registerLanguage('javascript', javascript);
+        registerLanguage('json', json);
+        registerLanguage('xml', xml);
+        registerLanguage('css', css);
 
         this.customTheme = hybrid;
 

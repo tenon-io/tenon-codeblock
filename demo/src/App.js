@@ -35,7 +35,6 @@ class App extends Component {
                     <h2>Code block with free text</h2>
                     <CodeBlock
                         codeString={codeText}
-                        language="javascript"
                         onReset={() => {
                             console.log('reset');
                         }}
@@ -45,7 +44,6 @@ class App extends Component {
                     <h2>Code block reading from a file</h2>
                     <CodeBlock
                         file="codeExample.js"
-                        language="javascript"
                         onReset={() => {
                             console.log('reset 2');
                         }}
@@ -54,7 +52,7 @@ class App extends Component {
                 <CodeBlock />
                 <CodeBlock
                     codeString={htmlPartial}
-                    language="html"
+                    language="xml"
                     onReset={() => {
                         console.log('reset 2');
                     }}
