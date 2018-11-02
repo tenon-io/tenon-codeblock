@@ -1,6 +1,6 @@
 {
     "name": "@tenon-io/tenon-codeblock",
-    "version": "1.0.0-alpha.4",
+    "version": "1.0.0-alpha.6",
     "description": "Tenon ui code display block",
     "contributors": [
         "Karl Groves <karl@tenon.io>",
@@ -24,7 +24,7 @@
         "umd"
     ],
     "scripts": {
-        "build":"npm-run-all lint lint-demo build-app",
+        "build": "npm-run-all lint lint-demo build-app",
         "build-app": "nwb build-react-component",
         "clean": "nwb clean-module && nwb clean-demo",
         "start": "nwb serve-react-demo",
@@ -37,24 +37,26 @@
         "lint-demo": "eslint *.js demo"
     },
     "dependencies": {
+        "@babel/runtime": "7.1.2",
         "axios": "0.18.0",
-        "react-syntax-highlighter": "8.0.1"
+        "react-syntax-highlighter": "10.0.0"
     },
     "peerDependencies": {
         "react": "^16.3.x"
     },
     "devDependencies": {
-        "babel-core": "6.26.0",
-        "babel-eslint": "7.2.3",
-        "babel-jest": "20.0.3",
-        "babel-preset-react-app": "^3.1.1",
-        "eslint": "4.10.0",
-        "eslint-loader": "1.9.0",
-        "eslint-plugin-flowtype": "2.39.1",
-        "eslint-plugin-import": "2.8.0",
-        "eslint-plugin-jsx-a11y": "6.1.1",
-        "eslint-plugin-react": "7.4.0",
-        "jest": "22.1.4",
+        "@babel/core": "7.1.0",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-eslint": "9.0.0",
+        "babel-jest": "23.6.0",
+        "babel-preset-react-app": "^6.1.0",
+        "eslint": "5.6.0",
+        "eslint-loader": "2.1.1",
+        "eslint-plugin-flowtype": "2.50.1",
+        "eslint-plugin-import": "2.14.0",
+        "eslint-plugin-jsx-a11y": "6.1.2",
+        "eslint-plugin-react": "7.11.1",
+        "jest": "23.6.0",
         "jest-dom": "1.11.0",
         "npm-run-all": "4.1.3",
         "nwb": "0.22.0",

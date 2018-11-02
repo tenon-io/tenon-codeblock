@@ -1,12 +1,12 @@
 import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
-import SyntaxHighlighter, {
-    registerLanguage
-} from 'react-syntax-highlighter/prism-light';
-import javascript from 'react-syntax-highlighter/languages/prism/javascript';
-import jsx from 'react-syntax-highlighter/languages/prism/jsx';
-import json from 'react-syntax-highlighter/languages/prism/json';
-import { atomDark } from 'react-syntax-highlighter/styles/prism';
+import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { PrismAsyncLight as SyntaxHighlighterJsx } from 'react-syntax-highlighter';
+import javascript from 'react-syntax-highlighter/dist/languages/hljs/javascript';
+import jsx from 'react-syntax-highlighter/dist/languages/prism/jsx';
+import json from 'react-syntax-highlighter/dist/languages/hljs/json';
+import { hybrid } from 'react-syntax-highlighter/dist/styles/hljs';
+import { atomDark } from 'react-syntax-highlighter/dist/styles/prism';
 import axios from 'axios';
 
 /**
@@ -38,7 +38,9 @@ class CodeBlock extends Component {
         onReset: PropTypes.func
     };
 
-    customTheme = atomDark;
+    customTheme = hybrid;
+
+    customThemeJsx = atomDark;
 
     codeBlockFrame = createRef();
     loadedInnerHTMLString = '';
@@ -57,19 +59,13 @@ class CodeBlock extends Component {
      * Finally fetches the file from the server.
      */
     componentDidMount() {
-        registerLanguage('jsx', jsx);
-        registerLanguage('javascript', javascript);
-        registerLanguage('json', json);
+        SyntaxHighlighterJsx.registerLanguage('jsx', jsx);
+        SyntaxHighlighter.registerLanguage('javascript', javascript);
+        SyntaxHighlighter.registerLanguage('json', json);
 
-        this.customTheme = {
-            ...atomDark,
-            comment: {
-                color: '#FFFFFF'
-            },
-            number: {
-                color: '#FF82FC'
-            }
-        };
+        this.customTheme = hybrid;
+
+        this.customThemeJsx = atomDark;
 
         this.setText();
     }
@@ -185,27 +181,45 @@ class CodeBlock extends Component {
      */
     render() {
         const { codeString } = this.state;
-        const { className } = this.props;
+        const { className, language = 'jsx' } = this.props;
+        console.log(language);
 
         return codeString ? (
             <div
                 className={className ? className : null}
                 ref={this.codeBlockFrame}
             >
-                <SyntaxHighlighter
-                    language={this.props.language || 'jsx'}
-                    style={this.customTheme}
-                    codeTagProps={{
-                        contentEditable: 'true',
-                        suppressContentEditableWarning: 'true',
-                        tabIndex: 0,
-                        spellCheck: 'false',
-                        onBlur: this.onBlurHandler,
-                        onFocus: this.onFocusHandler
-                    }}
-                >
-                    {codeString}
-                </SyntaxHighlighter>
+                {language === 'jsx' ? (
+                    <SyntaxHighlighterJsx
+                        language={language}
+                        style={this.customThemeJsx}
+                        codeTagProps={{
+                            contentEditable: 'true',
+                            suppressContentEditableWarning: 'true',
+                            tabIndex: 0,
+                            spellCheck: 'false',
+                            onBlur: this.onBlurHandler,
+                            onFocus: this.onFocusHandler
+                        }}
+                    >
+                        {codeString}
+                    </SyntaxHighlighterJsx>
+                ) : (
+                    <SyntaxHighlighter
+                        language={language}
+                        style={this.customTheme}
+                        codeTagProps={{
+                            contentEditable: 'true',
+                            suppressContentEditableWarning: 'true',
+                            tabIndex: 0,
+                            spellCheck: 'false',
+                            onBlur: this.onBlurHandler,
+                            onFocus: this.onFocusHandler
+                        }}
+                    >
+                        {codeString}
+                    </SyntaxHighlighter>
+                )}
             </div>
         ) : null;
     }
