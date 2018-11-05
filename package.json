@@ -1,6 +1,6 @@
 {
     "name": "@tenon-io/tenon-codeblock",
-    "version": "1.0.0-RC.1",
+    "version": "1.0.0-RC.2",
     "description": "Tenon ui code display block",
     "contributors": [
         "Karl Groves <karl@tenon.io>",
@@ -24,9 +24,10 @@
         "umd"
     ],
     "scripts": {
-        "build": "npm-run-all lint lint-demo build-app",
-        "build-app": "nwb build-react-component",
+        "build": "npm-run-all lint lint-demo build-app clean-deploy",
+        "build-app": "nwb build-react-component --copy-files",
         "clean": "nwb clean-module && nwb clean-demo",
+        "clean-deploy": "rimraf {es,lib}/**/{__tests__,__mocks__}",
         "start": "nwb serve-react-demo",
         "test": "node scripts/test.js --env=jsdom --coverage",
         "watch": "node scripts/test.js --env=jsdom",
@@ -64,7 +65,8 @@
         "prop-types": "15.6.2",
         "react": "16.4.1",
         "react-dom": "16.4.1",
-        "react-testing-library": "4.1.5"
+        "react-testing-library": "4.1.5",
+        "rimraf": "^2.6.2"
     },
     "jest": {
         "collectCoverageFrom": [
