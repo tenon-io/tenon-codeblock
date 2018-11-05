@@ -2,12 +2,18 @@ import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';
 import SyntaxHighlighter, {
     registerLanguage
+} from 'react-syntax-highlighter/light';
+import SyntaxHighlighterJsx, {
+    registerLanguage as registerLanguageJsx
 } from 'react-syntax-highlighter/prism-light';
-import javascript from 'react-syntax-highlighter/languages/prism/javascript';
+import javascript from 'react-syntax-highlighter/languages/hljs/javascript';
+import json from 'react-syntax-highlighter/languages/hljs/json';
+import css from 'react-syntax-highlighter/languages/hljs/css';
+import xml from 'react-syntax-highlighter/languages/hljs/xml';
 import jsx from 'react-syntax-highlighter/languages/prism/jsx';
-import json from 'react-syntax-highlighter/languages/prism/json';
 import { atomDark } from 'react-syntax-highlighter/styles/prism';
 import axios from 'axios';
+import './a11y-dark.css';
 
 /**
  * @component
@@ -26,7 +32,7 @@ import axios from 'axios';
  *
  * @prop {string} file - The path to the file to load.
  * @prop {string} codeString - A string value containing code to display.
- * @prop {string} language - Select a highlighter for jsx | javascript | html | json.
+ * @prop {string} language - Select a highlighter for jsx | javascript | html | json | css.
  * @prop {function} onReset - A callback function to execute when changes to the
  *          contenteditable section is reverted.
  *  */
@@ -34,11 +40,11 @@ class CodeBlock extends Component {
     static propTypes = {
         file: PropTypes.string,
         codeString: PropTypes.string,
-        language: PropTypes.oneOf(['javascript', 'jsx', 'json', 'html']),
+        language: PropTypes.oneOf(['javascript', 'jsx', 'json', 'html', 'css']),
         onReset: PropTypes.func
     };
 
-    customTheme = atomDark;
+    customThemeJsx = atomDark;
 
     codeBlockFrame = createRef();
     loadedInnerHTMLString = '';
@@ -57,11 +63,13 @@ class CodeBlock extends Component {
      * Finally fetches the file from the server.
      */
     componentDidMount() {
-        registerLanguage('jsx', jsx);
+        registerLanguageJsx('jsx', jsx);
         registerLanguage('javascript', javascript);
         registerLanguage('json', json);
+        registerLanguage('xml', xml);
+        registerLanguage('css', css);
 
-        this.customTheme = {
+        this.customThemeJsx = {
             ...atomDark,
             comment: {
                 color: '#FFFFFF'
@@ -185,27 +193,53 @@ class CodeBlock extends Component {
      */
     render() {
         const { codeString } = this.state;
-        const { className } = this.props;
+        const { className, language = 'jsx' } = this.props;
 
         return codeString ? (
             <div
                 className={className ? className : null}
                 ref={this.codeBlockFrame}
             >
-                <SyntaxHighlighter
-                    language={this.props.language || 'jsx'}
-                    style={this.customTheme}
-                    codeTagProps={{
-                        contentEditable: 'true',
-                        suppressContentEditableWarning: 'true',
-                        tabIndex: 0,
-                        spellCheck: 'false',
-                        onBlur: this.onBlurHandler,
-                        onFocus: this.onFocusHandler
-                    }}
-                >
-                    {codeString}
-                </SyntaxHighlighter>
+                {language === 'jsx' ? (
+                    <SyntaxHighlighterJsx
+                        language={language}
+                        style={this.customThemeJsx}
+                        codeTagProps={{
+                            contentEditable: 'true',
+                            suppressContentEditableWarning: 'true',
+                            tabIndex: 0,
+                            spellCheck: 'false',
+                            onBlur: this.onBlurHandler,
+                            onFocus: this.onFocusHandler
+                        }}
+                    >
+                        {codeString}
+                    </SyntaxHighlighterJsx>
+                ) : (
+                    <SyntaxHighlighter
+                        language={language === 'html' ? 'xml' : language}
+                        className="code-block"
+                        useInlineStyles={true}
+                        customStyle={{
+                            backgroundColor: '#2b2b2b',
+                            color: '#f8f8f2',
+                            padding: '1em',
+                            borderRadius: '0.4em',
+                            overflowX: 'auto',
+                            lineHeight: '1.7'
+                        }}
+                        codeTagProps={{
+                            contentEditable: 'true',
+                            suppressContentEditableWarning: 'true',
+                            tabIndex: 0,
+                            spellCheck: 'false',
+                            onBlur: this.onBlurHandler,
+                            onFocus: this.onFocusHandler
+                        }}
+                    >
+                        {codeString}
+                    </SyntaxHighlighter>
+                )}
             </div>
         ) : null;
     }

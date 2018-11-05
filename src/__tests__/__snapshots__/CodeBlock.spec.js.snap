@@ -1728,11 +1728,157 @@ exports[`CodeBlock should render a code block for JSX 1`] = `
 </div>
 `;
 
+exports[`CodeBlock should render a code block for css 1`] = `
+<div>
+  <div>
+    <pre
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        @
+        <span
+          class="hljs-keyword"
+        >
+          font-face
+        </span>
+         {
+  
+        <span
+          class="hljs-attribute"
+        >
+          font-family
+        </span>
+        : Chunkfive; 
+        <span
+          class="hljs-attribute"
+        >
+          src
+        </span>
+        : 
+        <span
+          class="hljs-built_in"
+        >
+          url
+        </span>
+        (
+        <span
+          class="hljs-string"
+        >
+          'Chunkfive.otf'
+        </span>
+        );
+}
+
+
+        <span
+          class="hljs-selector-tag"
+        >
+          body
+        </span>
+        , 
+        <span
+          class="hljs-selector-class"
+        >
+          .usertext
+        </span>
+         {
+  
+        <span
+          class="hljs-attribute"
+        >
+          color
+        </span>
+        : 
+        <span
+          class="hljs-number"
+        >
+          #F0F0F0
+        </span>
+        ; 
+        <span
+          class="hljs-attribute"
+        >
+          background
+        </span>
+        : 
+        <span
+          class="hljs-number"
+        >
+          #600
+        </span>
+        ;
+  
+        <span
+          class="hljs-attribute"
+        >
+          font-family
+        </span>
+        : Chunkfive, sans;
+}
+
+@
+        <span
+          class="hljs-keyword"
+        >
+          import
+        </span>
+         url(print.css);
+@
+        <span
+          class="hljs-keyword"
+        >
+          media
+        </span>
+         print {
+  
+        <span
+          class="hljs-selector-tag"
+        >
+          a
+        </span>
+        <span
+          class="hljs-selector-attr"
+        >
+          [href^=http]
+        </span>
+        <span
+          class="hljs-selector-pseudo"
+        >
+          ::after
+        </span>
+         {
+    
+        <span
+          class="hljs-attribute"
+        >
+          content
+        </span>
+        : 
+        <span
+          class="hljs-built_in"
+        >
+          attr
+        </span>
+        (href)
+  }
+}
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
 exports[`CodeBlock should render a code block for html 1`] = `
 <div>
   <div>
     <pre
-      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
     >
       <code
         contenteditable="true"
@@ -1740,2697 +1886,1195 @@ exports[`CodeBlock should render a code block for html 1`] = `
         tabindex="0"
       >
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             div
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            -1
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "-1"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            group
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "group"
           </span>
+           
           <span
-            class="token,style-attr,language-css"
+            class="hljs-attr"
           >
-            <span
-              class="token"
-              style="color: rgb(168, 255, 96);"
-            >
-               
-              <span
-                class="token"
-                style="color: rgb(168, 255, 96);"
-              >
-                style
-              </span>
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              ="
-            </span>
-            <span
-              class="token"
-              style="color: rgb(249, 238, 152);"
-            >
-              <span
-                class="token"
-                style="color: rgb(150, 203, 254);"
-              >
-                outline
-              </span>
-              <span
-                class="token"
-                style="color: rgb(197, 200, 198);"
-              >
-                :
-              </span>
-               none
-              <span
-                class="token"
-                style="color: rgb(197, 200, 198);"
-              >
-                ;
-              </span>
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            style
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
+            class="hljs-string"
           >
-            &gt;
+            "outline: none;"
           </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             ul
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tablist
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tablist"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             li
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            presentation
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "presentation"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             div
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            ec833728-4251-44f2-9742-7f2f5c3ac93c
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "ec833728-4251-44f2-9742-7f2f5c3ac93c"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tab
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tab"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            0
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "0"
           </span>
           
                  
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-controls
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            407e51c0-47f1-4c2c-8475-decda409006e
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "407e51c0-47f1-4c2c-8475-decda409006e"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-selected
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            true
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "true"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 1
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             div
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             li
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             li
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            presentation
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "presentation"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             div
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            78af9472-22ac-4bc8-bdd0-6a1f781a07f3
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "78af9472-22ac-4bc8-bdd0-6a1f781a07f3"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tab
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tab"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            -1
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "-1"
           </span>
           
                  
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-controls
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            d73309f4-60a8-4124-b42e-3a8b9b6d7ee2
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "d73309f4-60a8-4124-b42e-3a8b9b6d7ee2"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 2
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             div
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             li
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             li
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            presentation
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "presentation"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             div
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            907133b7-3a8f-48de-9d3d-465692a0b633
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "907133b7-3a8f-48de-9d3d-465692a0b633"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tab
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tab"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            -1
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "-1"
           </span>
           
                  
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-controls
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            b5979aec-405a-434a-a759-62bb4eeb3a05
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "b5979aec-405a-434a-a759-62bb4eeb3a05"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 3
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             div
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             li
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             li
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            presentation
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "presentation"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             div
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            565cb652-2579-4e14-b2cc-898d5d631f79
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "565cb652-2579-4e14-b2cc-898d5d631f79"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tab
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tab"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            -1
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "-1"
           </span>
           
                  
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-controls
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            79a8979c-2c98-48a1-b30e-97ea507eaeda
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "79a8979c-2c98-48a1-b30e-97ea507eaeda"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 4
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             span
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             div
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             li
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             ul
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             section
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            407e51c0-47f1-4c2c-8475-decda409006e
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "407e51c0-47f1-4c2c-8475-decda409006e"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tabpanel
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tabpanel"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            0
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "0"
           </span>
           
              
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-describedby
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            ec833728-4251-44f2-9742-7f2f5c3ac93c
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "ec833728-4251-44f2-9742-7f2f5c3ac93c"
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 1
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         You are on the first panel
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             section
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             section
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            d73309f4-60a8-4124-b42e-3a8b9b6d7ee2
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "d73309f4-60a8-4124-b42e-3a8b9b6d7ee2"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tabpanel
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tabpanel"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            0
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "0"
           </span>
           
              
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-describedby
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            78af9472-22ac-4bc8-bdd0-6a1f781a07f3
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "78af9472-22ac-4bc8-bdd0-6a1f781a07f3"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             hidden
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            ""
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 2
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         You are on the second panel
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             section
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             section
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            b5979aec-405a-434a-a759-62bb4eeb3a05
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "b5979aec-405a-434a-a759-62bb4eeb3a05"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tabpanel
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tabpanel"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            0
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "0"
           </span>
           
              
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-describedby
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            907133b7-3a8f-48de-9d3d-465692a0b633
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "907133b7-3a8f-48de-9d3d-465692a0b633"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             hidden
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            ""
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 3
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         You are on the third panel
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             section
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             section
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             id
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            79a8979c-2c98-48a1-b30e-97ea507eaeda
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "79a8979c-2c98-48a1-b30e-97ea507eaeda"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             role
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            tabpanel
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "tabpanel"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             tabindex
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            0
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "0"
           </span>
           
              
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             aria-describedby
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            565cb652-2579-4e14-b2cc-898d5d631f79
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            "565cb652-2579-4e14-b2cc-898d5d631f79"
           </span>
            
           <span
-            class="token"
-            style="color: rgb(168, 255, 96);"
+            class="hljs-attr"
           >
             hidden
           </span>
+          =
           <span
-            class="token"
-            style="color: rgb(249, 238, 152);"
+            class="hljs-string"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              =
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              "
-            </span>
+            ""
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Panel 4
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             h2
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         You are on the fourth panel
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             p
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             section
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
     
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;
-            </span>
             button
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         Change
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             button
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
         
 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-tag"
         >
+          &lt;/
           <span
-            class="token"
-            style="color: rgb(150, 203, 254);"
+            class="hljs-name"
           >
-            <span
-              class="token"
-              style="color: rgb(197, 200, 198);"
-            >
-              &lt;/
-            </span>
             div
           </span>
-          <span
-            class="token"
-            style="color: rgb(197, 200, 198);"
-          >
-            &gt;
-          </span>
+          &gt;
         </span>
       </code>
     </pre>
@@ -4442,996 +3086,267 @@ exports[`CodeBlock should render a code block for javascript 1`] = `
 <div>
   <div>
     <pre
-      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
     >
       <code
         contenteditable="true"
         spellcheck="false"
         tabindex="0"
       >
+        onKeyUpHandler = 
         <span
-          class="token,function-variable"
-          style="color: rgb(218, 208, 133);"
+          class="hljs-function"
         >
-          onKeyUpHandler
+          <span
+            class="hljs-params"
+          >
+            e
+          </span>
+           =&gt;
         </span>
-         
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-         e 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =&gt;
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
+         {
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           const
         </span>
-         
+         { activeTabId } = 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         activeTabId 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        state
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        .state;
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           const
         </span>
-         currentSelectedIndex 
+         currentSelectedIndex = 
         <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        <span
-          class="token"
-          style="color: rgb(218, 208, 133);"
-        >
-          reduce
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        
+        .tabsById.reduce(
             
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
+          class="hljs-function"
         >
           (
+          <span
+            class="hljs-params"
+          >
+            prev, cur, index
+          </span>
+          ) =&gt;
         </span>
-        prev
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         cur
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         index
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =&gt;
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        cur
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabId 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ===
-        </span>
-         activeTabId 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ?
-        </span>
-         index 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-         prev
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
+         (cur.tabId === activeTabId ? index : prev),
             
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
         
-        
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        );
 
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           let
         </span>
-         newIndex 
+         newIndex = 
         <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
 
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           switch
         </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        <span
-          class="token"
-          style="color: rgb(218, 208, 133);"
-        >
-          getKey
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        e
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
+         (getKey(e)) {
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           case
         </span>
-         keyNames
+         keyNames.ArrowLeft:
+                newIndex =
+                    currentSelectedIndex &gt; 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        ArrowLeft
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-        
-                newIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-        
-                    currentSelectedIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          &gt;
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
         
-                        
+                        ? currentSelectedIndex - 
         <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ?
-        </span>
-         currentSelectedIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          -
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
         
-                        
+                        : 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
+        .tabsById.length - 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        length 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          -
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           break
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           case
         </span>
-         keyNames
+         keyNames.ArrowRight:
+                newIndex =
+                    currentSelectedIndex === 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        ArrowRight
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-        
-                newIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =
-        </span>
-        
-                    currentSelectedIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ===
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
+        .tabsById.length - 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        length 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          -
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
         
-                        
+                        ? 
         <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ?
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
         
-                        
+                        : currentSelectedIndex + 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-         currentSelectedIndex 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          +
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           break
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           case
         </span>
-         keyNames
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        ArrowDown
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-        
+         keyNames.ArrowDown:
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
+        .panelRefs[activeTabId || 
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        panelRefs
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        activeTabId 
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          ||
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
+        .tabsById[
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabId
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        <span
-          class="token"
-          style="color: rgb(218, 208, 133);"
-        >
-          focus
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ].tabId].focus();
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           return
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
+        ;
             
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           default
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-        
+        :
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           return
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
-        
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        
+        ;
+        }
 
         
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        <span
-          class="token"
-          style="color: rgb(218, 208, 133);"
-        >
-          setState
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        
-            
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
-                activeTabId
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
-        >
-          this
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        newIndex
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabId
-            
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          =&gt;
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
+        .setState(
+            {
                 
         <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-attr"
+        >
+          activeTabId
+        </span>
+        : 
+        <span
+          class="hljs-keyword"
         >
           this
         </span>
+        .tabsById[newIndex].tabId
+            },
+            () =&gt; {
+                
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabRefs
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        <span
-          class="token"
-          style="color: rgb(150, 203, 254);"
+          class="hljs-keyword"
         >
           this
         </span>
+        .tabRefs[
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
+          class="hljs-keyword"
         >
-          .
+          this
         </span>
-        tabsById
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        newIndex
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        tabId
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          .
-        </span>
-        <span
-          class="token"
-          style="color: rgb(218, 208, 133);"
-        >
-          focus
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          (
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
-            
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        
-        
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
-        
-    
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ;
-        </span>
+        .tabsById[newIndex].tabId].focus();
+            }
+        );
+    };
       </code>
     </pre>
   </div>
@@ -5442,2320 +3357,330 @@ exports[`CodeBlock should render a code block for json 1`] = `
 <div>
   <div>
     <pre
-      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
     >
       <code
         contenteditable="true"
         spellcheck="false"
         tabindex="0"
       >
-         'code
+         'code[class*=
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        class*=
-        <span
-          class="token"
-          style="color: rgb(168, 255, 96);"
+          class="hljs-string"
         >
           "language-"
         </span>
+        ]': {
+                color: '#c5c8c6',
+                textShadow: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        '
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
-                color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#c5c8c6'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                textShadow
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
          
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
         px rgba(
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0.3
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        '
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                fontFamily
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-        
+        , 0, 0, 0.3)',
+                fontFamily:
                     
         <span
-          class="token"
-          style="color: rgb(168, 255, 96);"
+          class="hljs-string"
         >
           "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
         </span>
+        ,
+                direction: 'ltr',
+                textAlign: 'left',
+                whiteSpace: 'pre',
+                wordSpacing: 'normal',
+                wordBreak: 'normal',
+                lineHeight: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                direction
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'ltr'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                textAlign
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'left'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                whiteSpace
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'pre'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                wordSpacing
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'normal'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                wordBreak
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'normal'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                lineHeight
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1.5
         </span>
-        '
+        ',
+                MozTabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                MozTabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                OTabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                OTabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                tabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                tabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                WebkitHyphens: 'none',
+                MozHyphens: 'none',
+                msHyphens: 'none',
+                hyphens: 'none'
+            },
+            'pre[class*=
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                WebkitHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                MozHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                msHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                hyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-            
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            'pre
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        class*=
-        <span
-          class="token"
-          style="color: rgb(168, 255, 96);"
+          class="hljs-string"
         >
           "language-"
         </span>
+        ]': {
+                color: '#c5c8c6',
+                textShadow: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        '
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
-                color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#c5c8c6'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                textShadow
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
          
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
         px rgba(
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
-        >
-          0.3
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-        '
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                fontFamily
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-        
+        , 0, 0, 0.3)',
+                fontFamily:
                     
         <span
-          class="token"
-          style="color: rgb(168, 255, 96);"
+          class="hljs-string"
         >
           "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
         </span>
+        ,
+                direction: 'ltr',
+                textAlign: 'left',
+                whiteSpace: 'pre',
+                wordSpacing: 'normal',
+                wordBreak: 'normal',
+                lineHeight: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                direction
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'ltr'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                textAlign
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'left'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                whiteSpace
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'pre'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                wordSpacing
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'normal'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                wordBreak
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'normal'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                lineHeight
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1.5
         </span>
-        '
+        ',
+                MozTabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                MozTabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                OTabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                OTabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                tabSize: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                tabSize
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           4
         </span>
-        '
+        ',
+                WebkitHyphens: 'none',
+                MozHyphens: 'none',
+                msHyphens: 'none',
+                hyphens: 'none',
+                padding: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                WebkitHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                MozHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                msHyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                hyphens
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'none'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                padding
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
-        em'
+        em',
+                margin: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                margin
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           .5
         </span>
         em 
         <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0
         </span>
-        '
+        ',
+                overflow: 'auto',
+                borderRadius: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                overflow
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'auto'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                borderRadius
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           0.3
         </span>
-        em'
+        em',
+                background: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                background
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
         d1f21'
-            
+            },
+            ':not(pre) &gt; code[class*=
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            '
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-        not(pre
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          )
-        </span>
-         &gt; code
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          [
-        </span>
-        class*=
-        <span
-          class="token"
-          style="color: rgb(168, 255, 96);"
+          class="hljs-string"
         >
           "language-"
         </span>
+        ]': {
+                background: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ]
-        </span>
-        '
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-        
-                background
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           1
         </span>
-        d1f21'
+        d1f21',
+                padding: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                padding
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           .1
         </span>
-        em'
+        em',
+                borderRadius: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-                borderRadius
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           .3
         </span>
         em'
-            
+            },
+            comment: { color: '#FFFFFF' },
+            prolog: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            comment
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#FFFFFF' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            prolog
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           7
         </span>
-        C7C7C' 
+        C7C7C' },
+            doctype: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            doctype
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           7
         </span>
-        C7C7C' 
+        C7C7C' },
+            cdata: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            cdata
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           7
         </span>
-        C7C7C' 
+        C7C7C' },
+            punctuation: { color: '#c5c8c6' },
+            '.namespace': { Opacity: '
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            punctuation
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#c5c8c6' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            '.namespace'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         Opacity
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           .7
         </span>
-        ' 
+        ' },
+            property: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            property
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           96
         </span>
-        CBFE' 
+        CBFE' },
+            keyword: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            keyword
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           96
         </span>
-        CBFE' 
+        CBFE' },
+            tag: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            tag
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           96
         </span>
-        CBFE' 
+        CBFE' },
+            'class-name': { color: '#FFFFB6', textDecoration: 'underline' },
+            boolean: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            'class-name'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#FFFFB6'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         textDecoration
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'underline' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            boolean
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           99
         </span>
-        CC99' 
+        CC99' },
+            constant: { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            constant
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           99
         </span>
-        CC99' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            symbol
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#f92672' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            deleted
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#f92672' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            number
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#FF82FC' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            selector
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            'attr-name'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            string
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            char
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            builtin
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            inserted
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#A8FF60' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            variable
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#C6C5FE' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            operator
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#EDEDED' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            entity
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#FFFFB6'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         cursor
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'help' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            url
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+        CC99' },
+            symbol: { color: '#f92672' },
+            deleted: { color: '#f92672' },
+            number: { color: '#FF82FC' },
+            selector: { color: '#A8FF60' },
+            'attr-name': { color: '#A8FF60' },
+            string: { color: '#A8FF60' },
+            char: { color: '#A8FF60' },
+            builtin: { color: '#A8FF60' },
+            inserted: { color: '#A8FF60' },
+            variable: { color: '#C6C5FE' },
+            operator: { color: '#EDEDED' },
+            entity: { color: '#FFFFB6', cursor: 'help' },
+            url: { color: '#
+        <span
+          class="hljs-number"
         >
           96
         </span>
-        CBFE' 
+        CBFE' },
+            '.language-css .token.string': { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            '.language-css .token.string'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           87
         </span>
-        C38A' 
+        C38A' },
+            '.style .token.string': { color: '#
         <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            '.style .token.string'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#
-        <span
-          class="token"
-          style="color: rgb(255, 130, 252);"
+          class="hljs-number"
         >
           87
         </span>
-        C38A' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            atrule
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#F9EE98' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            'attr-value'
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#F9EE98' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            function
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#DAD085' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            regex
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#E9C062' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            important
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         color
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         '#fd971f'
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-         fontWeight
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'bold' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            bold
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         fontWeight
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'bold' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          ,
-        </span>
-        
-            italic
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          {
-        </span>
-         fontStyle
-        <span
-          class="token"
-          style="color: rgb(237, 237, 237);"
-        >
-          :
-        </span>
-         'italic' 
-        <span
-          class="token"
-          style="color: rgb(197, 200, 198);"
-        >
-          }
-        </span>
+        C38A' },
+            atrule: { color: '#F9EE98' },
+            'attr-value': { color: '#F9EE98' },
+            function: { color: '#DAD085' },
+            regex: { color: '#E9C062' },
+            important: { color: '#fd971f', fontWeight: 'bold' },
+            bold: { fontWeight: 'bold' },
+            italic: { fontStyle: 'italic' }
       </code>
     </pre>
   </div>
