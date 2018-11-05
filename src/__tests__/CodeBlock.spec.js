@@ -295,6 +295,35 @@ describe('CodeBlock', () => {
         expect(container).toMatchSnapshot();
     });
 
+    it('should render a code block for css', async () => {
+        axios.get.mockImplementationOnce(() =>
+            Promise.resolve({
+                data:
+                    '@font-face {\n' +
+                    "  font-family: Chunkfive; src: url('Chunkfive.otf');\n" +
+                    '}\n' +
+                    '\n' +
+                    'body, .usertext {\n' +
+                    '  color: #F0F0F0; background: #600;\n' +
+                    '  font-family: Chunkfive, sans;\n' +
+                    '}\n' +
+                    '\n' +
+                    '@import url(print.css);\n' +
+                    '@media print {\n' +
+                    '  a[href^=http]::after {\n' +
+                    '    content: attr(href)\n' +
+                    '  }\n' +
+                    '}'
+            })
+        );
+
+        const { container } = await render(
+            <CodeBlock file="/test/file.js" language="css" />
+        );
+
+        expect(container).toMatchSnapshot();
+    });
+
     it('should replace the old text content on blur', async () => {
         axios.get.mockImplementationOnce(() =>
             Promise.resolve({

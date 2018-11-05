@@ -24,7 +24,22 @@ const codeText =
     '   </section>\n' +
     '</StrictMode>';
 
-const htmlPartial = '<button type="button" class="somethi';
+const cssString =
+    '@font-face {\n' +
+    "  font-family: Chunkfive; src: url('Chunkfive.otf');\n" +
+    '}\n' +
+    '\n' +
+    'body, .usertext {\n' +
+    '  color: #F0F0F0; background: #600;\n' +
+    '  font-family: Chunkfive, sans;\n' +
+    '}\n' +
+    '\n' +
+    '@import url(print.css);\n' +
+    '@media print {\n' +
+    '  a[href^=http]::after {\n' +
+    '    content: attr(href)\n' +
+    '  }\n' +
+    '}';
 
 class App extends Component {
     render() {
@@ -50,13 +65,16 @@ class App extends Component {
                     />
                 </section>
                 <CodeBlock />
-                <CodeBlock
-                    codeString={htmlPartial}
-                    language="xml"
-                    onReset={() => {
-                        console.log('reset 2');
-                    }}
-                />
+                <section>
+                    <h2>Alternate highlight.js styling for non JSX snippets</h2>
+                    <CodeBlock
+                        codeString={cssString}
+                        language="css"
+                        onReset={() => {
+                            console.log('reset');
+                        }}
+                    />
+                </section>
             </StrictMode>
         );
     }
