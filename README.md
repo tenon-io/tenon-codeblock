@@ -14,14 +14,14 @@
 
 This is an accessible code-block component, built in React, for displaying styled code snippets in your application.
 
-It is part of [Tenon-UI](https://tenon-io.info).
+It is part of [Tenon-UI](https://tenon-iu.info).
 
 The code block is built on [react-syntax-highlighter](https://github.com/conorhastings/react-syntax-highlighter)
 with some contrast tweaks for accessibility and helpers to assist keyboard navigation.
 
 ## Documentation
 
-For complete documentation and usage guides please visit the [Tenon-UI documentation site](https://ui.tenon.io/).
+For complete documentation and usage guides please visit the [Tenon-UI documentation site](https://tenon-ui.info/).
 
 ## Contributing
 
