@@ -1,0 +1,111 @@
+{
+    "name": "@tenon-io/tenon-codeblock",
+    "version": "1.0.0",
+    "description": "Tenon ui code display block",
+    "contributors": [
+        "Karl Groves <karl@tenon.io>",
+        "Almero Steyn <almero@tenon.io>",
+        "Job van Achterberg <job@tenon.io>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:tenon-io/tenon-codeblock.git"
+    },
+    "bugs": {
+        "url": "https://tenon1.atlassian.net/secure/RapidBoard.jspa"
+    },
+    "license": "UNLICENSED",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "files": [
+        "src/css",
+        "es",
+        "lib",
+        "umd"
+    ],
+    "scripts": {
+        "build": "npm-run-all lint lint-demo build-app clean-deploy",
+        "build-app": "nwb build-react-component --copy-files",
+        "clean": "nwb clean-module && nwb clean-demo",
+        "clean-deploy": "rimraf {es,lib}/**/{__tests__,__mocks__}",
+        "start": "nwb serve-react-demo",
+        "test": "node scripts/test.js --env=jsdom --coverage",
+        "watch": "node scripts/test.js --env=jsdom",
+        "format-src": "prettier --write src/**/*.js",
+        "format-demo": "prettier --write demo/**/*.js !demo/dist/**",
+        "format": "npm-run-all format-src format-demo",
+        "lint": "eslint *.js src",
+        "lint-demo": "eslint *.js demo"
+    },
+    "dependencies": {
+        "@babel/runtime": "7.1.2",
+        "axios": "0.18.0",
+        "react-syntax-highlighter": "9.0.1"
+    },
+    "peerDependencies": {
+        "react": "^16.3.x"
+    },
+    "devDependencies": {
+        "@babel/core": "7.1.0",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-eslint": "9.0.0",
+        "babel-jest": "23.6.0",
+        "babel-preset-react-app": "^6.1.0",
+        "eslint": "5.6.0",
+        "eslint-loader": "2.1.1",
+        "eslint-plugin-flowtype": "2.50.1",
+        "eslint-plugin-import": "2.14.0",
+        "eslint-plugin-jsx-a11y": "6.1.2",
+        "eslint-plugin-react": "7.11.1",
+        "jest": "23.6.0",
+        "jest-dom": "1.11.0",
+        "npm-run-all": "4.1.3",
+        "nwb": "0.22.0",
+        "prettier": "1.13.7",
+        "prop-types": "15.6.2",
+        "react": "16.4.1",
+        "react-dom": "16.4.1",
+        "react-testing-library": "4.1.5",
+        "rimraf": "^2.6.2"
+    },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.{js,jsx}"
+        ],
+        "setupFiles": [
+            "<rootDir>/config/polyfills.js"
+        ],
+        "testMatch": [
+            "<rootDir>/src/**/__tests__/**/*.js?(x)",
+            "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+        ],
+        "testEnvironment": "node",
+        "testURL": "http://localhost",
+        "transform": {
+            "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+            "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+            "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+        },
+        "transformIgnorePatterns": [
+            "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+        ],
+        "moduleNameMapper": {
+            "^react-native$": "react-native-web"
+        },
+        "moduleFileExtensions": [
+            "web.js",
+            "js",
+            "json",
+            "web.jsx",
+            "jsx"
+        ]
+    },
+    "keywords": [
+        "react-component"
+    ],
+    "babel": {
+        "presets": [
+            "react-app"
+        ]
+    }
+}

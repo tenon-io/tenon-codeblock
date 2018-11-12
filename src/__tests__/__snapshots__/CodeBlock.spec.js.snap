@@ -1,0 +1,3688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeBlock should render a code block for JSX 1`] = `
+<div>
+  <div>
+    <pre
+      style="color: rgb(197, 200, 198); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; line-height: 1.5; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em; background: rgb(29, 31, 33);"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         React
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         Component 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         PropTypes 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'prop-types'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         SyntaxHighlighter
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+    registerLanguage
+
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/prism-light'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         javascript 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/javascript'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         jsx 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/jsx'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         json 
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/languages/prism/json'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          import
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         atomDark 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          from
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'react-syntax-highlighter/styles/prism'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          class
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          CodeBlock
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          extends
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          Component
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          static
+        </span>
+         propTypes 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         PropTypes
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        string
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        isRequired
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    state 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          ''
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          componentDidMount
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'jsx'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         jsx
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'javascript'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         javascript
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          registerLanguage
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'json'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         json
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          componentDidUpdate
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        prevProps
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        prevProps
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          !==
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        props
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+    
+        <span
+          class="token,function-variable"
+          style="color: rgb(218, 208, 133);"
+        >
+          fetchFile
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         codeFile 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          new
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 255, 182); text-decoration: underline;"
+        >
+          XMLHttpRequest
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          open
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          'GET'
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        props
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        file
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(153, 204, 153);"
+        >
+          false
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token,function-variable"
+          style="color: rgb(218, 208, 133);"
+        >
+          onreadystatechange
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =&gt;
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        readyState 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          4
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          if
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        status 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          200
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ||
+        </span>
+         codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        status 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ===
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(255, 130, 252);"
+        >
+          0
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+                    
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          setState
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        responseText 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+                
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        codeFile
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          send
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          null
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+    
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          render
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(255, 255, 255);"
+        >
+          //And here is a comment
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         test 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(153, 204, 153);"
+        >
+          true
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         codeString 
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          this
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        state
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          const
+        </span>
+         customTheme 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          =
+        </span>
+         Object
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          assign
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         atomDark
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ,
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        
+            comment
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+         color
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(168, 255, 96);"
+        >
+          '#FFFFFF'
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        console
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          .
+        </span>
+        <span
+          class="token"
+          style="color: rgb(218, 208, 133);"
+        >
+          log
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        customTheme
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          return
+        </span>
+         codeString 
+        <span
+          class="token"
+          style="color: rgb(237, 237, 237);"
+        >
+          ?
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          (
+        </span>
+        
+            
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;
+            </span>
+            SyntaxHighlighter
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            language
+          </span>
+          <span
+            class="token"
+            style="color: rgb(249, 238, 152);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+            javascript
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              "
+            </span>
+          </span>
+           
+          <span
+            class="token"
+            style="color: rgb(168, 255, 96);"
+          >
+            style
+          </span>
+          <span
+            class="token,script,language-javascript"
+          >
+            <span
+              class="token,script-punctuation"
+              style="color: rgb(197, 200, 198);"
+            >
+              =
+            </span>
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              {
+            </span>
+            customTheme
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              }
+            </span>
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token,plain-text"
+        >
+          
+                
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          {
+        </span>
+        codeString
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        <span
+          class="token,plain-text"
+        >
+          
+            
+        </span>
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          <span
+            class="token"
+            style="color: rgb(150, 203, 254);"
+          >
+            <span
+              class="token"
+              style="color: rgb(197, 200, 198);"
+            >
+              &lt;/
+            </span>
+            SyntaxHighlighter
+          </span>
+          <span
+            class="token"
+            style="color: rgb(197, 200, 198);"
+          >
+            &gt;
+          </span>
+        </span>
+        
+        
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          )
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          :
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          null
+        </span>
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+    
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          }
+        </span>
+        
+
+
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          export
+        </span>
+         
+        <span
+          class="token"
+          style="color: rgb(150, 203, 254);"
+        >
+          default
+        </span>
+         CodeBlock
+        <span
+          class="token"
+          style="color: rgb(197, 200, 198);"
+        >
+          ;
+        </span>
+        
+
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for css 1`] = `
+<div>
+  <div>
+    <pre
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        @
+        <span
+          class="hljs-keyword"
+        >
+          font-face
+        </span>
+         {
+  
+        <span
+          class="hljs-attribute"
+        >
+          font-family
+        </span>
+        : Chunkfive; 
+        <span
+          class="hljs-attribute"
+        >
+          src
+        </span>
+        : 
+        <span
+          class="hljs-built_in"
+        >
+          url
+        </span>
+        (
+        <span
+          class="hljs-string"
+        >
+          'Chunkfive.otf'
+        </span>
+        );
+}
+
+
+        <span
+          class="hljs-selector-tag"
+        >
+          body
+        </span>
+        , 
+        <span
+          class="hljs-selector-class"
+        >
+          .usertext
+        </span>
+         {
+  
+        <span
+          class="hljs-attribute"
+        >
+          color
+        </span>
+        : 
+        <span
+          class="hljs-number"
+        >
+          #F0F0F0
+        </span>
+        ; 
+        <span
+          class="hljs-attribute"
+        >
+          background
+        </span>
+        : 
+        <span
+          class="hljs-number"
+        >
+          #600
+        </span>
+        ;
+  
+        <span
+          class="hljs-attribute"
+        >
+          font-family
+        </span>
+        : Chunkfive, sans;
+}
+
+@
+        <span
+          class="hljs-keyword"
+        >
+          import
+        </span>
+         url(print.css);
+@
+        <span
+          class="hljs-keyword"
+        >
+          media
+        </span>
+         print {
+  
+        <span
+          class="hljs-selector-tag"
+        >
+          a
+        </span>
+        <span
+          class="hljs-selector-attr"
+        >
+          [href^=http]
+        </span>
+        <span
+          class="hljs-selector-pseudo"
+        >
+          ::after
+        </span>
+         {
+    
+        <span
+          class="hljs-attribute"
+        >
+          content
+        </span>
+        : 
+        <span
+          class="hljs-built_in"
+        >
+          attr
+        </span>
+        (href)
+  }
+}
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for html 1`] = `
+<div>
+  <div>
+    <pre
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "-1"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "group"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            style
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "outline: none;"
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            ul
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tablist"
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "presentation"
+          </span>
+          &gt;
+        </span>
+        
+            
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "ec833728-4251-44f2-9742-7f2f5c3ac93c"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tab"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "0"
+          </span>
+          
+                 
+          <span
+            class="hljs-attr"
+          >
+            aria-controls
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "407e51c0-47f1-4c2c-8475-decda409006e"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            aria-selected
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "true"
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        Panel 1
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "presentation"
+          </span>
+          &gt;
+        </span>
+        
+            
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "78af9472-22ac-4bc8-bdd0-6a1f781a07f3"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tab"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "-1"
+          </span>
+          
+                 
+          <span
+            class="hljs-attr"
+          >
+            aria-controls
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "d73309f4-60a8-4124-b42e-3a8b9b6d7ee2"
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        Panel 2
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "presentation"
+          </span>
+          &gt;
+        </span>
+        
+            
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "907133b7-3a8f-48de-9d3d-465692a0b633"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tab"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "-1"
+          </span>
+          
+                 
+          <span
+            class="hljs-attr"
+          >
+            aria-controls
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "b5979aec-405a-434a-a759-62bb4eeb3a05"
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        Panel 3
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "presentation"
+          </span>
+          &gt;
+        </span>
+        
+            
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "565cb652-2579-4e14-b2cc-898d5d631f79"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tab"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "-1"
+          </span>
+          
+                 
+          <span
+            class="hljs-attr"
+          >
+            aria-controls
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "79a8979c-2c98-48a1-b30e-97ea507eaeda"
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        Panel 4
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            span
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            li
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            ul
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "407e51c0-47f1-4c2c-8475-decda409006e"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tabpanel"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "0"
+          </span>
+          
+             
+          <span
+            class="hljs-attr"
+          >
+            aria-describedby
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "ec833728-4251-44f2-9742-7f2f5c3ac93c"
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        Panel 1
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        You are on the first panel
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "d73309f4-60a8-4124-b42e-3a8b9b6d7ee2"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tabpanel"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "0"
+          </span>
+          
+             
+          <span
+            class="hljs-attr"
+          >
+            aria-describedby
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "78af9472-22ac-4bc8-bdd0-6a1f781a07f3"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            hidden
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            ""
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        Panel 2
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        You are on the second panel
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "b5979aec-405a-434a-a759-62bb4eeb3a05"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tabpanel"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "0"
+          </span>
+          
+             
+          <span
+            class="hljs-attr"
+          >
+            aria-describedby
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "907133b7-3a8f-48de-9d3d-465692a0b633"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            hidden
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            ""
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        Panel 3
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        You are on the third panel
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            id
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "79a8979c-2c98-48a1-b30e-97ea507eaeda"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            role
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "tabpanel"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            tabindex
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "0"
+          </span>
+          
+             
+          <span
+            class="hljs-attr"
+          >
+            aria-describedby
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            "565cb652-2579-4e14-b2cc-898d5d631f79"
+          </span>
+           
+          <span
+            class="hljs-attr"
+          >
+            hidden
+          </span>
+          =
+          <span
+            class="hljs-string"
+          >
+            ""
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        Panel 4
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            h2
+          </span>
+          &gt;
+        </span>
+        
+        
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        You are on the fourth panel
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            p
+          </span>
+          &gt;
+        </span>
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            section
+          </span>
+          &gt;
+        </span>
+        
+    
+        <span
+          class="hljs-tag"
+        >
+          &lt;
+          <span
+            class="hljs-name"
+          >
+            button
+          </span>
+          &gt;
+        </span>
+        Change
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            button
+          </span>
+          &gt;
+        </span>
+        
+
+        <span
+          class="hljs-tag"
+        >
+          &lt;/
+          <span
+            class="hljs-name"
+          >
+            div
+          </span>
+          &gt;
+        </span>
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for javascript 1`] = `
+<div>
+  <div>
+    <pre
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+        onKeyUpHandler = 
+        <span
+          class="hljs-function"
+        >
+          <span
+            class="hljs-params"
+          >
+            e
+          </span>
+           =&gt;
+        </span>
+         {
+        
+        <span
+          class="hljs-keyword"
+        >
+          const
+        </span>
+         { activeTabId } = 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .state;
+        
+        <span
+          class="hljs-keyword"
+        >
+          const
+        </span>
+         currentSelectedIndex = 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById.reduce(
+            
+        <span
+          class="hljs-function"
+        >
+          (
+          <span
+            class="hljs-params"
+          >
+            prev, cur, index
+          </span>
+          ) =&gt;
+        </span>
+         (cur.tabId === activeTabId ? index : prev),
+            
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        
+        );
+
+        
+        <span
+          class="hljs-keyword"
+        >
+          let
+        </span>
+         newIndex = 
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        ;
+
+        
+        <span
+          class="hljs-keyword"
+        >
+          switch
+        </span>
+         (getKey(e)) {
+            
+        <span
+          class="hljs-keyword"
+        >
+          case
+        </span>
+         keyNames.ArrowLeft:
+                newIndex =
+                    currentSelectedIndex &gt; 
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        
+                        ? currentSelectedIndex - 
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        
+                        : 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById.length - 
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        ;
+                
+        <span
+          class="hljs-keyword"
+        >
+          break
+        </span>
+        ;
+            
+        <span
+          class="hljs-keyword"
+        >
+          case
+        </span>
+         keyNames.ArrowRight:
+                newIndex =
+                    currentSelectedIndex === 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById.length - 
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        
+                        ? 
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        
+                        : currentSelectedIndex + 
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        ;
+                
+        <span
+          class="hljs-keyword"
+        >
+          break
+        </span>
+        ;
+            
+        <span
+          class="hljs-keyword"
+        >
+          case
+        </span>
+         keyNames.ArrowDown:
+                
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .panelRefs[activeTabId || 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById[
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        ].tabId].focus();
+                
+        <span
+          class="hljs-keyword"
+        >
+          return
+        </span>
+        ;
+            
+        <span
+          class="hljs-keyword"
+        >
+          default
+        </span>
+        :
+                
+        <span
+          class="hljs-keyword"
+        >
+          return
+        </span>
+        ;
+        }
+
+        
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .setState(
+            {
+                
+        <span
+          class="hljs-attr"
+        >
+          activeTabId
+        </span>
+        : 
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById[newIndex].tabId
+            },
+            () =&gt; {
+                
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabRefs[
+        <span
+          class="hljs-keyword"
+        >
+          this
+        </span>
+        .tabsById[newIndex].tabId].focus();
+            }
+        );
+    };
+      </code>
+    </pre>
+  </div>
+</div>
+`;
+
+exports[`CodeBlock should render a code block for json 1`] = `
+<div>
+  <div>
+    <pre
+      class="code-block"
+      style="background-color: rgb(43, 43, 43); color: rgb(248, 248, 242); padding: 1em; border-radius: 0.4em; overflow-x: auto; line-height: 1.7;"
+    >
+      <code
+        contenteditable="true"
+        spellcheck="false"
+        tabindex="0"
+      >
+         'code[class*=
+        <span
+          class="hljs-string"
+        >
+          "language-"
+        </span>
+        ]': {
+                color: '#c5c8c6',
+                textShadow: '
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+         
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        px rgba(
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        , 0, 0, 0.3)',
+                fontFamily:
+                    
+        <span
+          class="hljs-string"
+        >
+          "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
+        </span>
+        ,
+                direction: 'ltr',
+                textAlign: 'left',
+                whiteSpace: 'pre',
+                wordSpacing: 'normal',
+                wordBreak: 'normal',
+                lineHeight: '
+        <span
+          class="hljs-number"
+        >
+          1.5
+        </span>
+        ',
+                MozTabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                OTabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                tabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                WebkitHyphens: 'none',
+                MozHyphens: 'none',
+                msHyphens: 'none',
+                hyphens: 'none'
+            },
+            'pre[class*=
+        <span
+          class="hljs-string"
+        >
+          "language-"
+        </span>
+        ]': {
+                color: '#c5c8c6',
+                textShadow: '
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+         
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        px rgba(
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        , 0, 0, 0.3)',
+                fontFamily:
+                    
+        <span
+          class="hljs-string"
+        >
+          "Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace"
+        </span>
+        ,
+                direction: 'ltr',
+                textAlign: 'left',
+                whiteSpace: 'pre',
+                wordSpacing: 'normal',
+                wordBreak: 'normal',
+                lineHeight: '
+        <span
+          class="hljs-number"
+        >
+          1.5
+        </span>
+        ',
+                MozTabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                OTabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                tabSize: '
+        <span
+          class="hljs-number"
+        >
+          4
+        </span>
+        ',
+                WebkitHyphens: 'none',
+                MozHyphens: 'none',
+                msHyphens: 'none',
+                hyphens: 'none',
+                padding: '
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        em',
+                margin: '
+        <span
+          class="hljs-number"
+        >
+          .5
+        </span>
+        em 
+        <span
+          class="hljs-number"
+        >
+          0
+        </span>
+        ',
+                overflow: 'auto',
+                borderRadius: '
+        <span
+          class="hljs-number"
+        >
+          0.3
+        </span>
+        em',
+                background: '#
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        d1f21'
+            },
+            ':not(pre) &gt; code[class*=
+        <span
+          class="hljs-string"
+        >
+          "language-"
+        </span>
+        ]': {
+                background: '#
+        <span
+          class="hljs-number"
+        >
+          1
+        </span>
+        d1f21',
+                padding: '
+        <span
+          class="hljs-number"
+        >
+          .1
+        </span>
+        em',
+                borderRadius: '
+        <span
+          class="hljs-number"
+        >
+          .3
+        </span>
+        em'
+            },
+            comment: { color: '#FFFFFF' },
+            prolog: { color: '#
+        <span
+          class="hljs-number"
+        >
+          7
+        </span>
+        C7C7C' },
+            doctype: { color: '#
+        <span
+          class="hljs-number"
+        >
+          7
+        </span>
+        C7C7C' },
+            cdata: { color: '#
+        <span
+          class="hljs-number"
+        >
+          7
+        </span>
+        C7C7C' },
+            punctuation: { color: '#c5c8c6' },
+            '.namespace': { Opacity: '
+        <span
+          class="hljs-number"
+        >
+          .7
+        </span>
+        ' },
+            property: { color: '#
+        <span
+          class="hljs-number"
+        >
+          96
+        </span>
+        CBFE' },
+            keyword: { color: '#
+        <span
+          class="hljs-number"
+        >
+          96
+        </span>
+        CBFE' },
+            tag: { color: '#
+        <span
+          class="hljs-number"
+        >
+          96
+        </span>
+        CBFE' },
+            'class-name': { color: '#FFFFB6', textDecoration: 'underline' },
+            boolean: { color: '#
+        <span
+          class="hljs-number"
+        >
+          99
+        </span>
+        CC99' },
+            constant: { color: '#
+        <span
+          class="hljs-number"
+        >
+          99
+        </span>
+        CC99' },
+            symbol: { color: '#f92672' },
+            deleted: { color: '#f92672' },
+            number: { color: '#FF82FC' },
+            selector: { color: '#A8FF60' },
+            'attr-name': { color: '#A8FF60' },
+            string: { color: '#A8FF60' },
+            char: { color: '#A8FF60' },
+            builtin: { color: '#A8FF60' },
+            inserted: { color: '#A8FF60' },
+            variable: { color: '#C6C5FE' },
+            operator: { color: '#EDEDED' },
+            entity: { color: '#FFFFB6', cursor: 'help' },
+            url: { color: '#
+        <span
+          class="hljs-number"
+        >
+          96
+        </span>
+        CBFE' },
+            '.language-css .token.string': { color: '#
+        <span
+          class="hljs-number"
+        >
+          87
+        </span>
+        C38A' },
+            '.style .token.string': { color: '#
+        <span
+          class="hljs-number"
+        >
+          87
+        </span>
+        C38A' },
+            atrule: { color: '#F9EE98' },
+            'attr-value': { color: '#F9EE98' },
+            function: { color: '#DAD085' },
+            regex: { color: '#E9C062' },
+            important: { color: '#fd971f', fontWeight: 'bold' },
+            bold: { fontWeight: 'bold' },
+            italic: { fontStyle: 'italic' }
+      </code>
+    </pre>
+  </div>
+</div>
+`;
