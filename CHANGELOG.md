@@ -1,6 +1,6 @@
 # Changelog
 
 
-## [1.0.0-alpha.2] 2018-08-15
-### Added
-- Accessible codeblock component
+## [1.0.0] 2018-11-12
+### Release
+- First code block release.
