@@ -63,9 +63,9 @@
         "nwb": "0.22.0",
         "prettier": "1.13.7",
         "prop-types": "15.6.2",
-        "react": "16.4.1",
-        "react-dom": "16.4.1",
-        "react-testing-library": "4.1.5",
+        "react": "16.8.5",
+        "react-dom": "16.8.5",
+        "react-testing-library": "6.0.2",
         "rimraf": "^2.6.2"
     },
     "jest": {
