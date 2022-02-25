@@ -1,6 +1,6 @@
 {
     "name": "@tenon-io/tenon-codeblock",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Tenon ui code display block",
     "contributors": [
         "Karl Groves <karl@tenon.io>",
@@ -35,7 +35,8 @@
         "format-demo": "prettier --write demo/**/*.js !demo/dist/**",
         "format": "npm-run-all format-src format-demo",
         "lint": "eslint *.js src",
-        "lint-demo": "eslint *.js demo"
+        "lint-demo": "eslint *.js demo",
+        "license": "npm install -g license-checker && license-checker --production --csv --out licenses.csv"
     },
     "dependencies": {
         "@babel/runtime": "7.14.8",
