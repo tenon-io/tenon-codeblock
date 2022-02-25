@@ -38,7 +38,7 @@
         "lint-demo": "eslint *.js demo"
     },
     "dependencies": {
-        "@babel/runtime": "7.14.8",
+        "@babel/runtime": "7.17.0",
         "axios": "0.21.2",
         "react-syntax-highlighter": "9.0.1"
     },
