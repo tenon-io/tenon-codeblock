@@ -39,7 +39,7 @@
         "license": "npm install -g license-checker && license-checker --production --csv --out licenses.csv"
     },
     "dependencies": {
-        "@babel/runtime": "7.14.8",
+        "@babel/runtime": "7.17.0",
         "axios": "0.21.2",
         "react-syntax-highlighter": "9.0.1"
     },
